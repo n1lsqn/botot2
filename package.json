@@ -33,6 +33,7 @@
 	},
 	"dependencies": {
 		"asciimath-to-latex": "^0.5.0",
+		"forever": "^4.0.3",
 		"graphviz": "0.0.9",
 		"markov-ja": "^1.0.10",
 		"mathjax-node": "^2.1.1",

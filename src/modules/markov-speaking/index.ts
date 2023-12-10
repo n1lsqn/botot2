@@ -61,6 +61,7 @@ export default class MarkovSpeakingModule implements IModule {
         let res = await api("notes/create", {
           text: text,
           visibility: config.visibility,
+          localOnly: true,
         });
         const json = (await res.json()) as { error?: unknown }; // Force convert to { error?: unknown }
         if (json.error) {
